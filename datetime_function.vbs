@@ -1,0 +1,1 @@
+wscript.echo year(date) & right("0" & month(date),2) & right("0" & day(date),2) & right("0" & hour(time),2) & right("0" & minute(time),2) & right("0" &second (time),2)
